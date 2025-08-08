@@ -1,0 +1,16 @@
+# Do not change the line endings by default
+* -text
+
+# Explicitly declare text files we want to always be normalized and converted
+# to native line endings on checkout.
+*.htm* text
+*.md text
+*.py text
+*.txt text
+.gitattributes text
+.gitignore text
+LICENSE text
+
+# List of large files to be handled by Large File Storage (LFS)
+*.csv filter=lfs diff=lfs merge=lfs text
+*.mat filter=lfs diff=lfs merge=lfs text
