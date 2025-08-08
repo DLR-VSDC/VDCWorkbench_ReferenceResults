@@ -1,0 +1,36 @@
+[SimulationSummaryLog]
+libraryName="VDCWorkbenchModels"
+libraryVersion="0.1.0"
+libraryDate="2025-07-31"
+libraryBuild=""
+libraryModified="2025-07-31"
+usedLibraryURL=""
+
+// Simulator
+generationTool="Dymola Version 2025x Refresh 1, 2025-05-16"
+generationDate="Fri 01 Aug 2025"
+
+// Simulation
+successful=[
+  VDCWorkbenchModels.Examples.VDCWorkbenches.Techlab2TrainStationWessling_MVCLateral,
+  VDCWorkbenchModels.Examples.VDCWorkbenches.Techlab2TrainStationWessling_VDCGeoPFC,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOMechanicalAccelBrakeStraight,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOSingeleMotorAccelBrakeStraight,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOAccelBrakeStraight,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOAccelerateTurn,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOAccelerateSinusoidalSteering,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.VariantsVehicleDrivetrains.ROMOMechanical,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.VariantsVehicleDrivetrains.ROMOSingleMotor,
+  VDCWorkbenchModels.Examples.VehicleDrivetrains.VariantsVehicleDrivetrains.ROMO4IWM,
+  VDCWorkbenchModels.VehicleComponents.Chassis.Examples.TestRigPlanar_longSlip,
+  VDCWorkbenchModels.VehicleComponents.Chassis.Examples.ExperimentalDrivetrain,
+  VDCWorkbenchModels.VehicleComponents.Chassis.Examples.ExperimentalDrivetrain_withBody,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryTest,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryTestwithAging,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.TractionMotorTest,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndTractionMotorTest,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2,
+  VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.TractionMotorBatteryTest,
+  VDCWorkbenchModels.VehicleComponents.Controllers.Examples.DrivingTorquesAllocation]
+failed=[
+  ]
