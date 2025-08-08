@@ -1,0 +1,34 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:14:12 2025)
+
+dymosim started
+... "VDCWorkbenchModels.VehicleComponents.Controllers.Examples.DrivingTorquesAllocation" simulating
+... "dsin.txt" loading (dymosim input file)
+... "DrivingTorquesAllocation.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 2
+  WARNING: You have many time events. This is probably due to fast sampling.
+  Enable logging of event in Simulation/Setup/Debug/Events during simulation
+   CPU-time for integration                : 0.007 seconds
+   CPU-time for one grid interval          : 0.0014 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 5014
+   Number of grid points                   : 5001
+   Number of accepted steps                : 44
+   Number of f-evaluations (dynamics)      : 44
+   Number of crossing function evaluations : 5065
+   Number of Jacobian-evaluations          : 41
+   Number of model time events             : 10
+   Number of input time events             : 0
+   Number of state events                  : 1
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.33e-07
+   Maximum integration stepsize            : 0.615
+   Maximum integration order               : 1
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.VehicleComponents.Controllers.Examples.DrivingTorquesAllocation

@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:14:00 2025)
+
+dymosim started
+... "VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2" simulating
+... "dsin.txt" loading (dymosim input file)
+... "BatteryAndH2RangeExtenderV2.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 1000
+   CPU-time for integration                : 0.171 seconds
+   CPU-time for one grid interval          : 0.000855 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 200002
+   Number of grid points                   : 200001
+   Number of accepted steps                : 56
+   Number of f-evaluations (dynamics)      : 107
+   Number of crossing function evaluations : 200056
+   Number of Jacobian-evaluations          : 36
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 5e-06
+   Maximum integration stepsize            : 76
+   Maximum integration order               : 2
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2

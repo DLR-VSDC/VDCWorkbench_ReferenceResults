@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:14:52 2025)
+
+dymosim started
+... "VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOSingeleMotorAccelBrakeStraight" simulating
+... "dsin.txt" loading (dymosim input file)
+... "ROMOSingeleMotorAccelBrakeStraight.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 20
+   CPU-time for integration                : 0.033 seconds
+   CPU-time for one grid interval          : 0.0066 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 5005
+   Number of grid points                   : 5001
+   Number of accepted steps                : 322
+   Number of f-evaluations (dynamics)      : 626
+   Number of crossing function evaluations : 5322
+   Number of Jacobian-evaluations          : 93
+   Number of model time events             : 3
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.11e-08
+   Maximum integration stepsize            : 1.2
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOSingeleMotorAccelBrakeStraight

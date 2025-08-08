@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:13:44 2025)
+
+dymosim started
+... "VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryTest" simulating
+... "dsin.txt" loading (dymosim input file)
+... "BatteryTest.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 1
+   CPU-time for integration                : 0.006 seconds
+   CPU-time for one grid interval          : 0.0012 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 5002
+   Number of grid points                   : 5001
+   Number of accepted steps                : 50
+   Number of f-evaluations (dynamics)      : 96
+   Number of crossing function evaluations : 5050
+   Number of Jacobian-evaluations          : 29
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 2e-07
+   Maximum integration stepsize            : 0.192
+   Maximum integration order               : 3
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryTest

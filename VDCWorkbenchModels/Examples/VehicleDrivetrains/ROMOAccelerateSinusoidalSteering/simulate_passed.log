@@ -1,0 +1,32 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:15:08 2025)
+
+dymosim started
+... "VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOAccelerateSinusoidalSteering" simulating
+... "dsin.txt" loading (dymosim input file)
+... "ROMOAccelerateSinusoidalSteering.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 20
+   CPU-time for integration                : 0.04 seconds
+   CPU-time for one grid interval          : 0.008 milliseconds
+   CPU-time for initialization             : 0 seconds
+   Number of result points                 : 5004
+   Number of grid points                   : 5001
+   Number of accepted steps                : 504
+   Number of f-evaluations (dynamics)      : 1022
+   Number of crossing function evaluations : 5504
+   Number of Jacobian-evaluations          : 68
+   Number of model time events             : 2
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4.16e-09
+   Maximum integration stepsize            : 0.158
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.Examples.VehicleDrivetrains.ROMOAccelerateSinusoidalSteering

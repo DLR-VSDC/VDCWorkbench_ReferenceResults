@@ -1,0 +1,31 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:13:33 2025)
+
+dymosim started
+... "VDCWorkbenchModels.VehicleComponents.Chassis.Examples.ExperimentalDrivetrain" simulating
+... "dsin.txt" loading (dymosim input file)
+... "ExperimentalDrivetrain.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 20
+   CPU-time for integration                : 0.014 seconds
+   CPU-time for one grid interval          : 0.0028 milliseconds
+   CPU-time for initialization             : 0.001 seconds
+   Number of result points                 : 5005
+   Number of grid points                   : 5001
+   Number of accepted steps                : 201
+   Number of f-evaluations (dynamics)      : 363
+   Number of Jacobian-evaluations          : 82
+   Number of model time events             : 3
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 3.72e-08
+   Maximum integration stepsize            : 3.77
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.VehicleComponents.Chassis.Examples.ExperimentalDrivetrain

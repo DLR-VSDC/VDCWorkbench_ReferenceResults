@@ -1,0 +1,33 @@
+Log-file of program ./dymosim
+(generated: Fri Aug  1 13:14:17 2025)
+
+dymosim started
+... "VDCWorkbenchModels.Examples.VDCWorkbenches.Techlab2TrainStationWessling_MVCLateral" simulating
+... "dsin.txt" loading (dymosim input file)
+... loading "path" from "D:/tobolar/modelica/AC_IEEE_MVC2023/VDCWorkbench/VDCWorkbenchModels/Resources/Maps/Techlab2SBahn-NonOpt.mat"
+... "Techlab2TrainStationWessling_MVCLateral.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 136
+   CPU-time for integration                : 4.21 seconds
+   CPU-time for one grid interval          : 0.155 milliseconds
+   CPU-time for initialization             : 0.002 seconds
+   Number of result points                 : 37350
+   Number of grid points                   : 27201
+   Number of accepted steps                : 111367
+   Number of f-evaluations (dynamics)      : 183084
+   Number of crossing function evaluations : 144255
+   Number of Jacobian-evaluations          : 61536
+   Number of model time events             : 4974
+   Number of input time events             : 0
+   Number of state events                  : 100
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4.81e-10
+   Maximum integration stepsize            : 0.119
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.Examples.VDCWorkbenches.Techlab2TrainStationWessling_MVCLateral

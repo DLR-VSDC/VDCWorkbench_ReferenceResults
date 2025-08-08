@@ -1,0 +1,30 @@
+[ResultCreationLog]
+modelName="VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2"
+
+// Test info
+generationTool="Dymola Version 2025x Refresh 1, 2025-05-16"
+generationDateAndTime="Fri Aug  1 13:14:01 2025"
+libraryVersion="0.1.0"
+libraryBuild=
+usedLibraryURL=""
+usedLibraryRevision=55ac7a801a5043c93e20e416efce9d6fe1cb9a94
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=1000
+Interval=0.005
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+OutputCPUtime := false;
+translateModel("VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2");
+simulateModel(
+  problem="VDCWorkbenchModels.VehicleComponents.Powertrain.Components.Examples.BatteryAndH2RangeExtenderV2",
+  startTime=0,
+  stopTime=1000,
+  outputInterval=0.005,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="BatteryAndH2RangeExtenderV2");
