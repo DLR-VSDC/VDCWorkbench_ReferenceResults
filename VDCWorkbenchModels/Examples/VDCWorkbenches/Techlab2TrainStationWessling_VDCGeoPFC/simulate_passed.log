@@ -1,10 +1,10 @@
 Log-file of program ./dymosim
-(generated: Fri Aug  1 13:14:35 2025)
+(generated: Tue Aug 18 10:56:30 2026)
 
 dymosim started
 ... "VDCWorkbenchModels.Examples.VDCWorkbenches.Techlab2TrainStationWessling_VDCGeoPFC" simulating
 ... "dsin.txt" loading (dymosim input file)
-... loading "path_TIPI" from "D:/tobolar/modelica/AC_IEEE_MVC2023/VDCWorkbench/VDCWorkbenchModels/Resources/Maps/Techlab2SBahn-NonOpt_TIPI.mat"
+... loading "path_TIPI" from "~/VDCWorkbenchModels/Resources/Maps/Techlab2SBahn-NonOpt_TIPI.mat"
 ... "Techlab2TrainStationWessling_VDCGeoPFC.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
@@ -12,22 +12,22 @@ Integration started at T = 0 using integration method DASSL
 Simulation successfully terminated
 Vehicle reached end of path
 
-Integration terminated successfully at T = 135.4201333
-   CPU-time for integration                : 2.36 seconds
-   CPU-time for one grid interval          : 0.0871 milliseconds
-   CPU-time for initialization             : 0.003 seconds
+Integration terminated successfully at T = 135.4205483
+   CPU-time for integration                : 2.78 seconds
+   CPU-time for one grid interval          : 0.103 milliseconds
+   CPU-time for initialization             : 0.029 seconds
    Number of result points                 : 27243
    Number of grid points                   : 27086
-   Number of accepted steps                : 110715
-   Number of f-evaluations (dynamics)      : 254391
-   Number of crossing function evaluations : 138318
-   Number of Jacobian-evaluations          : 30432
+   Number of accepted steps                : 110555
+   Number of f-evaluations (dynamics)      : 254140
+   Number of crossing function evaluations : 138123
+   Number of Jacobian-evaluations          : 30526
    Number of model time events             : 0
    Number of input time events             : 0
    Number of state events                  : 79
    Number of step events                   : 0
    Minimum integration stepsize            : 6.4e-10
-   Maximum integration stepsize            : 0.0619
+   Maximum integration stepsize            : 0.0644
    Maximum integration order               : 5
 Calling terminal section
 Simulation successfully terminated

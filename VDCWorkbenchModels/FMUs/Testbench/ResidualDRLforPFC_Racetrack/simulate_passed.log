@@ -1,0 +1,42 @@
+Log-file of program ./dymosim
+(generated: Tue Aug 18 10:57:16 2026)
+
+dymosim started
+... "VDCWorkbenchModels.FMUs.Testbench.ResidualDRLforPFC_Racetrack" simulating
+... "dsin.txt" loading (dymosim input file)
+... loading "path" from "~/VDCWorkbenchModels/Resources/Maps/Racetrack.mat"
+SMArtInt: ONNX Model recognized  - at path: ~/VDCWorkbenchModels/Resources/DRL_Agents/residualDRLgeoPFC.onnx
+SMArtInt: Using 1 Thread
+SMArtInt: Using CPU Provider
+SMArtInt: ONNX I/O binding mode for outputs: CPU
+... "ResidualDRLforPFC_Racetrack.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Simulation successfully terminated
+Vehicle reached end of path
+
+Integration terminated successfully at T = 17.8212534
+   CPU-time for integration                : 1.1 seconds
+   CPU-time for one grid interval          : 1.55 milliseconds
+   CPU-time for initialization             : 0.148 seconds
+   Number of result points                 : 1119
+   Number of grid points                   : 714
+   Number of accepted steps                : 56122
+   Number of f-evaluations (dynamics)      : 120684
+   Number of crossing function evaluations : 57038
+   Number of Jacobian-evaluations          : 11597
+   Number of model time events             : 356
+   Number of input time events             : 0
+   Number of state events                  : 25
+   Number of step events                   : 0
+   Minimum integration stepsize            : 4.06e-10
+   Maximum integration stepsize            : 0.00707
+   Maximum integration order               : 5
+Calling terminal section
+Simulation successfully terminated
+Vehicle reached end of path
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.FMUs.Testbench.ResidualDRLforPFC_Racetrack
+The simulation finished due to the use of terminate()
