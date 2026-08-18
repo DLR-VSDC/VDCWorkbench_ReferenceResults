@@ -1,0 +1,34 @@
+Log-file of program ./dymosim
+(generated: Tue Aug 18 10:56:06 2026)
+
+dymosim started
+... "VDCWorkbenchModels.Examples.VDCWorkbenches.MiniAFMStanleyPredictiveTD_Racetrack" simulating
+... "dsin.txt" loading (dymosim input file)
+... loading "path" from "~/VDCWorkbenchModels/Resources/Maps/RacetrackMini.mat"
+... loading "path" from "~/VDCWorkbenchModels/Resources/Maps/RacetrackMini.mat"
+... "MiniAFMStanleyPredictiveTD_Racetrack.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 9.5
+   CPU-time for integration                : 0.303 seconds
+   CPU-time for one grid interval          : 0.0606 milliseconds
+   CPU-time for initialization             : 0.004 seconds
+   Number of result points                 : 5371
+   Number of grid points                   : 5001
+   Number of accepted steps                : 20262
+   Number of f-evaluations (dynamics)      : 38730
+   Number of crossing function evaluations : 25442
+   Number of Jacobian-evaluations          : 4069
+   Number of model time events             : 190
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.04e-10
+   Maximum integration stepsize            : 0.00863
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of VDCWorkbenchModels.Examples.VDCWorkbenches.MiniAFMStanleyPredictiveTD_Racetrack

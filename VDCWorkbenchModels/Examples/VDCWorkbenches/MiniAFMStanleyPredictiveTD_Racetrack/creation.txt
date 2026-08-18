@@ -1,0 +1,30 @@
+[ResultCreationLog]
+modelName="VDCWorkbenchModels.Examples.VDCWorkbenches.MiniAFMStanleyPredictiveTD_Racetrack"
+
+// Test info
+generationTool="Dymola Version 2026x Refresh 1, 2026-04-08"
+generationDateAndTime="Tue Aug 18 10:56:07 2026"
+libraryVersion="0.3.0"
+libraryBuild=
+usedLibraryURL=""
+usedLibraryRevision=278a5ab6b40be4b608645ae3137793f501317f63
+
+// Experiment settings (standardized annotation)
+StartTime=0
+StopTime=9.5
+Interval=0.0019
+Tolerance=1e-06
+
+// Experiment settings (tool specific)
+// The following lines can be used as mos-script in Dymola
+Evaluate := false;
+Advanced.Translation.OutputCPUtime := false;
+translateModel("VDCWorkbenchModels.Examples.VDCWorkbenches.MiniAFMStanleyPredictiveTD_Racetrack");
+simulateModel(
+  problem="VDCWorkbenchModels.Examples.VDCWorkbenches.MiniAFMStanleyPredictiveTD_Racetrack",
+  startTime=0,
+  stopTime=9.5,
+  outputInterval=0.0019,
+  method="Dassl",
+  tolerance=1e-06,
+  resultFile="MiniAFMStanleyPredictiveTD_Racetrack");
